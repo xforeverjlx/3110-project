@@ -1,0 +1,3 @@
+(executable
+ (name main_with_bot)
+ (libraries texas_holdem))

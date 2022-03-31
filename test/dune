@@ -1,0 +1,3 @@
+(test
+ (name main)
+ (libraries texas_holdem ounit2))

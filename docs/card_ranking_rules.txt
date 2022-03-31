@@ -1,0 +1,49 @@
+This txt file explains what card ranking rules are used in this game.
+
+Poker hand ranking:
+(sorted from least to greatest, an example is provided next to each kind)
+
+0. High Card (A♠ J♦ 8♣ 6♠ 2♥)
+High card is when you have five cards that do not interact with each other to make any of the below hands.
+
+1. One-Pair (A♦ A♥ K♠ 9♦ 4♥)
+One pair consists of two cards of the same value, and three extra cards.
+
+2. Two-Pair (9♣ 9♦ 6♣ 6♠ Q♥)
+​​Two pair consists of two cards of equal value, another two cards of equal value, and one extra card.
+
+3. Three-of-a-Kind (7♠ 7♦ 7♣ K♦ Q♣)
+Three of a kind is 3 cards of the same value and 2 side cards of different values.
+
+4. Straight (9♥ 8♠ 7♣ 6♦ 5♣)
+A straight has 5 cards of consecutive value that are not all the same suit.
+
+5. Flush (A♠ J♠ 8♠ 4♠ 3♠)
+A flush is a hand which has all cards of the same suit.
+
+6. Full House (A♥ A♣ A♦ 9♠ 9♣)
+A full house consists of three cards of one value and two cards of another.
+
+7. Four-of-a-Kind (J♦ J♣ J♠ J♥ K♦)
+Four of a kind consists of four cards of equal value along with another card known as a side card.
+
+8. Straight Flush (10♥ 9♥ 8♥ 7♥ 6♥)
+A straight flush consists of any straight that is all the same suit.
+
+9. Royal Flush (A♦ K♦ Q♦ J♦ 10♦)
+A royal flush consists of A, K, Q, J and 10, all of the same suit.
+
+
+Note that if more than one hand is tied at the same rank, kicker comparison will be used.
+
+A kicker, also called a side card, is a card in a poker hand that does not itself take part in determining the rank of the hand, but that may be used to break ties between hands of the same rank.
+For example, the hand Q-Q-10-5-2 is ranked as a pair of queens. The 10, 5, and 2 are kickers.
+This hand would defeat any hand with no pair, or with a lower-ranking pair, and lose to any higher-ranking hand. 
+But the kickers can be used to break ties between other hands that also have a pair of queens.
+For example, Q-Q-K-3-2 would win (because its K kicker outranks the 10), but Q-Q-10-4-3 would lose (because its 4 is outranked by the 5).
+
+
+References: 
+https://upswingpoker.com/poker-hands-rankings/ 
+https://youtu.be/JhhyaD1npbM.
+https://en.wikipedia.org/wiki/Kicker_(poker)

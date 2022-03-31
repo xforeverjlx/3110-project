@@ -1,0 +1,26 @@
+Setup Phase
+- Load file
+- Create new game
+
+Play Phase
+- Call
+- Raise [amount]
+- Fold
+- Save [filename]
+- Exit
+
+Game Result Display
+Would you like a new game (y/n)?
+
+Reshuffling Phase
+- Add fund [name] [amount]
+- Add new player [name] [wealth]
+- Remove player [name]
+- Save [filename]
+- Exit
+- Start (new game)
+
+
+Saving and Loading
+- save in play phase will load into play phase
+- save in reshuffling phase will load into Game Result Display and new game (y/n)

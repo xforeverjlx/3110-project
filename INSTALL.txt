@@ -1,0 +1,4 @@
+From terminal, call "dune build".
+There may be a few warnings. Don't worry about them.
+
+Then, call "make play" to start a texas holdem game.

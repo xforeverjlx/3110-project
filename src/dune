@@ -1,0 +1,4 @@
+(library
+ (name texas_holdem)
+ (public_name texas_holdem)
+ (libraries yojson))
